@@ -20,4 +20,5 @@ use App\Http\Controllers\HomeController;
 //     return $request->user();
 // });
 
-Route::any('print', [HomeController::class, 'print']);
+Route::post('test', [HomeController::class, 'test']);
+Route::post('print', [HomeController::class, 'print']);
